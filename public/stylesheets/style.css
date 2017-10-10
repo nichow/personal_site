@@ -11,8 +11,10 @@ body {
 
 a {
   font-size: 18px;
-  color: #00B7FF;
+  color: inherit;
 }
+
+a:
 
 #masthead {
   position: absolute;
@@ -67,6 +69,7 @@ a {
 }
 
 .side-menu ul li {
+  background-color: #f9f9f9;
   display: block;
   margin-left: -5rem;
   margin-right: auto;
