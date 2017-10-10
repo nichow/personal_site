@@ -1,28 +1,69 @@
+@font-face {
+  font-family: Quicksand;
+  src: url(../fonts/quicksand.otf);
+}
+
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 16px Quicksand, "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #555555;
 }
 
 a {
+  font-size: 18px;
   color: #00B7FF;
 }
 
-#container {
+#masthead {
+  position: absolute;
+  width: calc(100vw - 280px);
+  margin-left: 280px;
+  white-space: nowrap;
+  height: 85px;
+  padding-left: 1rem;
+  left: 0;
+  top: 0;
+  border-bottom: 1px solid #dedfe0;
+}
+
+#masthead * {
+
+}
+
+#side-container {
+  position: absolute;
   width: 270px;
-  height: 100%;
+  height: 100vw;
   float: left;
   margin: -3rem -3rem;
 }
 
+#main-container {
+  position: absolute;
+  width: calc(100vw - 280px);
+  height: calc(100vw - 85px);
+  margin-left: 280px;
+  float: right;
+  bottom: 0;
+  left: 0;
+}
+
 .summary {
-  width: 250px;
+  width: 260px;
   position: relative;
   display: block;
   padding: 10px;
+  background-color: #ffc0c0;
+  top: -10px;
+  left: -10px;
 }
 
 .summary h1 {
   text-align: center;
+}
+
+.side-menu ul {
+  margin-top: -10px;
 }
 
 .side-menu ul li {
@@ -30,11 +71,15 @@ a {
   margin-left: -5rem;
   margin-right: auto;
   text-align: right;
-  padding: 8px 20px 8px;
+  padding: 13px 20px 8px;
   border: 1px solid #dedfe0;
 }
 
 #me {
   margin-left: 3px;
-  border-radius: 3px;
+  border-radius: 20px;
+}
+
+#main-container h3 {
+  padding: 30px;
 }
