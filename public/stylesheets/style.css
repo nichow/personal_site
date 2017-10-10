@@ -1,12 +1,110 @@
+@font-face {
+  font-family: Quicksand;
+  src: url(../fonts/quicksand.otf);
+}
+
+
 body {
+  position: fixed;
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 16px Quicksand, "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #555555;
+  width: 1920px;
+  height: 1080px;
 }
 
 a {
-  color: #00B7FF;
+  text-decoration: none;
+  font-size: 18px;
+  color: inherit;
 }
 
 #masthead {
-  width: 100%;
+  position: fixed;
+  width: calc(100vw - 280px);
+  margin-left: 280px;
+  white-space: nowrap;
+  height: 85px;
+  padding-left: 1rem;
+  left: 0;
+  top: 0;
+  border-bottom: 1px solid #dedfe0;
+}
+
+#side-container {
+  position: fixed;
+  width: 270px;
+  height: 100vh;
+  float: left;
+  margin: -3rem -3rem;
+}
+
+#main-container {
+  position: fixed;
+  width: calc(100vw - 280px);
+  height: calc(100vh - 86px);
+  margin-left: 280px;
+  float: right;
+  bottom: 0;
+  left: 0;
+}
+
+.summary {
+  width: 260px;
+  position: relative;
+  display: block;
+  padding: 10px;
+  background-color: #ffc0c0;
+  top: -10px;
+  left: -10px;
+}
+
+.summary h1 {
+  text-align: center;
+}
+
+.side-menu ul {
+  margin-top: -10px;
+}
+
+.side-menu ul li {
+  background-color: #f9f9f9;
+  display: block;
+  margin-left: -5rem;
+  margin-right: auto;
+  text-align: right;
+  padding: .79rem 20px 8px;
+  border: 1px solid #dedfe0;
+}
+
+#me {
+  margin-left: 3px;
+  border-radius: 20px;
+}
+
+#git {
+  text-decoration: underline;
+  font-size: 24px;
+}
+
+#linked {
+  text-decoration: underline;
+  font-size: 24px;
+}
+
+#main-container h1 {
+  padding: 0 30px;
+  text-align: center;
+}
+
+#main-container h2 {
+  padding: 0 30px;
+}
+
+#aboutMeText {
+  display: none;
+}
+
+#aboutSiteText {
+  /*display: none;*/
 }
