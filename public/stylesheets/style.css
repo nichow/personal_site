@@ -3,10 +3,6 @@
   src: url(../fonts/quicksand.otf);
 }
 
-html {
-  min-width: 100vw;
-  min-height: 100vh;
-}
 
 body {
   position: fixed;
@@ -33,10 +29,6 @@ a {
   left: 0;
   top: 0;
   border-bottom: 1px solid #dedfe0;
-}
-
-#masthead * {
-
 }
 
 #side-container {
@@ -81,7 +73,7 @@ a {
   margin-left: -5rem;
   margin-right: auto;
   text-align: right;
-  padding: 13px 20px 8px;
+  padding: .79rem 20px 8px;
   border: 1px solid #dedfe0;
 }
 
@@ -90,6 +82,29 @@ a {
   border-radius: 20px;
 }
 
-#main-container h3 {
-  padding: 30px;
+#git {
+  text-decoration: underline;
+  font-size: 24px;
+}
+
+#linked {
+  text-decoration: underline;
+  font-size: 24px;
+}
+
+#main-container h1 {
+  padding: 0 30px;
+  text-align: center;
+}
+
+#main-container h2 {
+  padding: 0 30px;
+}
+
+#aboutMeText {
+  display: none;
+}
+
+#aboutSiteText {
+  /*display: none;*/
 }
