@@ -7,6 +7,34 @@ a {
   color: #00B7FF;
 }
 
-#masthead {
-  width: 100%;
+#container {
+  width: 270px;
+  height: 100%;
+  float: left;
+  margin: -3rem -3rem;
+}
+
+.summary {
+  width: 250px;
+  position: relative;
+  display: block;
+  padding: 10px;
+}
+
+.summary h1 {
+  text-align: center;
+}
+
+.side-menu ul li {
+  display: block;
+  margin-left: -5rem;
+  margin-right: auto;
+  text-align: right;
+  padding: 8px 20px 8px;
+  border: 1px solid #dedfe0;
+}
+
+#me {
+  margin-left: 3px;
+  border-radius: 3px;
 }
