@@ -3,21 +3,28 @@
   src: url(../fonts/quicksand.otf);
 }
 
+html {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
 body {
+  position: fixed;
   padding: 50px;
   font: 16px Quicksand, "Lucida Grande", Helvetica, Arial, sans-serif;
   color: #555555;
+  width: 1920px;
+  height: 1080px;
 }
 
 a {
+  text-decoration: none;
   font-size: 18px;
   color: inherit;
 }
 
-a:
-
 #masthead {
-  position: absolute;
+  position: fixed;
   width: calc(100vw - 280px);
   margin-left: 280px;
   white-space: nowrap;
@@ -33,17 +40,17 @@ a:
 }
 
 #side-container {
-  position: absolute;
+  position: fixed;
   width: 270px;
-  height: 100vw;
+  height: 100vh;
   float: left;
   margin: -3rem -3rem;
 }
 
 #main-container {
-  position: absolute;
+  position: fixed;
   width: calc(100vw - 280px);
-  height: calc(100vw - 85px);
+  height: calc(100vh - 86px);
   margin-left: 280px;
   float: right;
   bottom: 0;
