@@ -5,12 +5,10 @@
 
 
 body {
-  position: fixed;
   padding: 50px;
   font: 16px Quicksand, "Lucida Grande", Helvetica, Arial, sans-serif;
   color: #555555;
-  width: 1920px;
-  height: 1080px;
+  background-color: #fff0f0;
 }
 
 a {
@@ -42,11 +40,13 @@ a {
 #main-container {
   position: fixed;
   width: calc(100vw - 280px);
-  height: calc(100vh - 86px);
+  height: 100%;
+  top: 86px;
   margin-left: 280px;
   float: right;
   bottom: 0;
   left: 0;
+  overflow: scroll;
 }
 
 .summary {
@@ -82,14 +82,22 @@ a {
   border-radius: 20px;
 }
 
+.sub-heading {
+  height: 36px;
+  width: inherit;
+  text-align: center;
+}
+
+.sub-heading * {
+  display: inline;
+}
+
 #git {
-  text-decoration: underline;
-  font-size: 24px;
+  vertical-align: middle;
 }
 
 #linked {
-  text-decoration: underline;
-  font-size: 24px;
+  vertical-align: middle;
 }
 
 #main-container h1 {
@@ -99,12 +107,18 @@ a {
 
 #main-container h2 {
   padding: 0 30px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+}
+
+#masthead h2 {
+  margin: .83em 0 0;
 }
 
 #aboutMeText {
-  display: none;
+  /*display: none;*/
 }
 
 #aboutSiteText {
-  /*display: none;*/
+  display: none;
 }
