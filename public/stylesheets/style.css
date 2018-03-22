@@ -92,14 +92,6 @@ a {
   display: inline;
 }
 
-#git {
-  vertical-align: middle;
-}
-
-#linked {
-  vertical-align: middle;
-}
-
 #main-container h1 {
   padding: 0 30px;
   text-align: center;
@@ -111,14 +103,12 @@ a {
   font-weight: lighter;
 }
 
+#main-container a {
+  color: #ff9090;
+  font-size: 24px;
+  text-decoration: underline;
+}
+
 #masthead h2 {
   margin: .83em 0 0;
-}
-
-#aboutMeText {
-  /*display: none;*/
-}
-
-#aboutSiteText {
-  display: none;
 }
