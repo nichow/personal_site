@@ -27,21 +27,81 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="aboutsite.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/aboutsite.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            <state relative-caret-position="391">
+              <caret line="23" column="112" lean-forward="true" selection-start-line="23" selection-start-column="112" selection-end-line="23" selection-end-column="112" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server.js">
+      <file leaf-file-name="contact.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/contact.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="54" lean-forward="false" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+            <state relative-caret-position="476">
+              <caret line="28" column="128" lean-forward="false" selection-start-line="28" selection-start-column="128" selection-end-line="28" selection-end-column="128" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="experience.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/experience.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="128" lean-forward="false" selection-start-line="28" selection-start-column="128" selection-end-line="28" selection-end-column="128" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="128" lean-forward="false" selection-start-line="27" selection-start-column="128" selection-end-line="27" selection-end-column="128" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="music.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/music.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="128" lean-forward="false" selection-start-line="27" selection-start-column="128" selection-end-line="27" selection-end-column="128" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="skills.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/skills.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="128" lean-forward="false" selection-start-line="27" selection-start-column="128" selection-end-line="27" selection-end-column="128" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="writing.hbs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/writing.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="128" lean-forward="false" selection-start-line="27" selection-start-column="128" selection-end-line="27" selection-end-column="128" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -82,13 +142,6 @@
         <option value="$PROJECT_DIR$/views/projects.hbs" />
         <option value="$PROJECT_DIR$/routes/projects.js" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
-        <option value="$PROJECT_DIR$/views/index.hbs" />
-        <option value="$PROJECT_DIR$/views/aboutsite.hbs" />
-        <option value="$PROJECT_DIR$/views/experience.hbs" />
-        <option value="$PROJECT_DIR$/views/writing.hbs" />
-        <option value="$PROJECT_DIR$/views/skills.hbs" />
-        <option value="$PROJECT_DIR$/views/music.hbs" />
-        <option value="$PROJECT_DIR$/views/contact.hbs" />
         <option value="$PROJECT_DIR$/functions/routes/aboutsite.js" />
         <option value="$PROJECT_DIR$/functions/routes/music.js" />
         <option value="$PROJECT_DIR$/functions/routes/index.js" />
@@ -102,6 +155,13 @@
         <option value="$PROJECT_DIR$/bin/server.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/views/aboutsite.hbs" />
+        <option value="$PROJECT_DIR$/views/contact.hbs" />
+        <option value="$PROJECT_DIR$/views/experience.hbs" />
+        <option value="$PROJECT_DIR$/views/index.hbs" />
+        <option value="$PROJECT_DIR$/views/music.hbs" />
+        <option value="$PROJECT_DIR$/views/skills.hbs" />
+        <option value="$PROJECT_DIR$/views/writing.hbs" />
       </list>
     </option>
   </component>
@@ -154,6 +214,11 @@
               <item name="personal_site" type="b2602c69:ProjectViewProjectNode" />
               <item name="personal_site" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="personal_site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal_site" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -203,12 +268,12 @@
       <workItem from="1521417017766" duration="439000" />
       <workItem from="1521430296437" duration="49000" />
       <workItem from="1521696259235" duration="1491000" />
-      <workItem from="1521860062724" duration="3588000" />
+      <workItem from="1521860062724" duration="4259000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32345000" />
+    <option name="totallyTimeSpent" value="33016000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -307,7 +372,6 @@
     <entry file="file://$PROJECT_DIR$/routes/aboutsite.js" />
     <entry file="file://$PROJECT_DIR$/routes/index.js" />
     <entry file="file://$PROJECT_DIR$/routes/experience.js" />
-    <entry file="file://$PROJECT_DIR$/views/layout.hbs" />
     <entry file="file://$PROJECT_DIR$/routes/music.js" />
     <entry file="file://$PROJECT_DIR$/views/projects.hbs" />
     <entry file="file://$PROJECT_DIR$/routes/projects.js" />
@@ -318,14 +382,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/writing.hbs" />
-    <entry file="file://$PROJECT_DIR$/views/skills.hbs" />
     <entry file="file://$PROJECT_DIR$/routes/contact.js" />
-    <entry file="file://$PROJECT_DIR$/views/music.hbs" />
-    <entry file="file://$PROJECT_DIR$/views/experience.hbs" />
-    <entry file="file://$PROJECT_DIR$/views/index.hbs" />
-    <entry file="file://$PROJECT_DIR$/views/aboutsite.hbs" />
-    <entry file="file://$PROJECT_DIR$/views/contact.hbs" />
     <entry file="file://$PROJECT_DIR$/functions/routes/contact.js" />
     <entry file="file://$PROJECT_DIR$/functions/routes/writing.js" />
     <entry file="file://$PROJECT_DIR$/functions/routes/skills.js" />
@@ -347,10 +404,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="10" lean-forward="false" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+        <state relative-caret-position="323">
+          <caret line="19" column="54" lean-forward="false" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
           <folding />
         </state>
       </provider>
@@ -363,10 +420,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="54" lean-forward="false" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+        <state relative-caret-position="884">
+          <caret line="52" column="10" lean-forward="false" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/aboutsite.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="112" lean-forward="true" selection-start-line="23" selection-start-column="112" selection-end-line="23" selection-end-column="112" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/contact.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="128" lean-forward="false" selection-start-line="28" selection-start-column="128" selection-end-line="28" selection-end-column="128" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/experience.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="128" lean-forward="false" selection-start-line="28" selection-start-column="128" selection-end-line="28" selection-end-column="128" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="128" lean-forward="false" selection-start-line="27" selection-start-column="128" selection-end-line="27" selection-end-column="128" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/music.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="128" lean-forward="false" selection-start-line="27" selection-start-column="128" selection-end-line="27" selection-end-column="128" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/skills.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="128" lean-forward="false" selection-start-line="27" selection-start-column="128" selection-end-line="27" selection-end-column="128" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/writing.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="128" lean-forward="false" selection-start-line="27" selection-start-column="128" selection-end-line="27" selection-end-column="128" />
           <folding />
         </state>
       </provider>
