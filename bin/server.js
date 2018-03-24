@@ -34,6 +34,7 @@ const server = http.createServer(app);
 server.listen(port, ip);
 server.on('error', onError);
 server.on('listening', onListening);
+console.log('port:' + port + ', ip:' + ip);
 
 /**
  * Normalize a port into a number, string, or false.
