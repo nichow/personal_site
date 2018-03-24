@@ -2,9 +2,9 @@
   "name": "personal-site",
   "version": "1.0.0",
   "private": true,
-  "main": "./bin/server.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node ./bin/server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "body-parser": "~1.18.2",
